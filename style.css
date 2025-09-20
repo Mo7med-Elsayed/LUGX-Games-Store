@@ -1,0 +1,148 @@
+/* The Font */
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* All Html Elements */
+:root {
+ --margin: 30px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* The Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #115dc0;
+  padding: 10px 50px;
+  height: 8vh;
+}
+.logo {
+  width: 150px;
+}
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px 25px;
+}
+a:hover {
+  color: #ff1a1a;
+}
+.btn {
+  background-color: darkred;
+  border: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+.btn:hover {
+  background-color: rgb(153, 63, 63);
+}
+
+/* Landing Page */
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #115dc0;
+  color: whitesmoke;
+  padding: 50px 35px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.d span {
+  font-size: 20px;
+  font-weight: bold;
+  margin: var(--margin);
+}
+.d h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: var(--margin);
+}
+.d p {
+  width: 620px;
+  margin: 50px 30px;
+}
+.search {
+  margin: var(--margin);
+}
+
+.search input {
+  border: none;
+  outline: none;
+  width: 500px; height: 50px;
+  border-radius: 50px;
+  padding-left: 20px;
+  font-size: 15px;
+}
+.search button {
+  width: 100px; height: 50px;
+  position: absolute;
+  left: 520px;
+}
+.search button:hover {
+  background-color: rgb(153, 63, 63);
+}
+.photo img {
+  height: 350px;
+  border-radius: 50px;
+}
+/* Trending Games */
+.trending-container {
+  padding: 50px 80px;
+  height: 400px;
+}
+.trending-container span {
+  color: darkred;
+  text-transform: uppercase;
+}
+.trending-header {
+  display: flex;
+  justify-content: space-between;
+}
+.trending-header h1 {
+  margin: 0;
+}
+/* Cards */
+.trending-cards {
+  display: flex;
+  justify-content: space-between;
+  height: 350px;
+}
+.card {
+  height: 320px;
+}
+.card img {
+  border-radius: 50px;
+  margin-top: 10px;
+  width: 400px;
+}
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+.card-name p {
+  margin: 10px;
+  margin-left: 25px;
+}
+.card-name h3 {
+  margin: 10px;
+  margin-left: 25px;
+}
+.card-info img {
+  width: 50px;
+  height: 50px;
+  margin-right: 25px;
+}
